@@ -21,6 +21,13 @@ public class Main {
             }
 
         }
+        // задание 3
+        System.out.println();
+        List<String> stringList=new ArrayList<>(Arrays.asList("one","one","one",
+                "one","two","three","four"));
+        Set <String> numb=new HashSet<>(stringList);
+        System.out.println(numb);
 
     }
-}
+
+    }
